@@ -1,7 +1,7 @@
 // require .env.development or .env.production
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
-})
+});
 
 module.exports = {
   plugins: [
@@ -50,4 +50,4 @@ module.exports = {
     },
     `gatsby-plugin-netlify-cache`,
   ],
-}
+};
