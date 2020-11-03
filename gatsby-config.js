@@ -1,7 +1,3 @@
-require("dotenv").config({
-  path: `.env.GATSBY_CONCURRENT_DOWNLOAD`,
-})
-
 // require .env.development or .env.production
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
@@ -20,9 +16,7 @@ module.exports = {
     {
       resolve: `gatsby-source-wordpress-experimental`,
       options: {
-        url:
-          process.env.WPGRAPHQL_URL ||
-          `https://dev-gatsby-source-wordpress-v4.pantheonsite.io/graphql`,
+        url: process.env.WPGRAPHQL_URL,
         verbose: true,
         develop: {
           hardCacheMediaFiles: true,

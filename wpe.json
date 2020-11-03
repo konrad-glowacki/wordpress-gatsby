@@ -1,0 +1,17 @@
+{
+  "name": "gatsby-wordpress",
+  "repo": "konrad-glowacki/wordpress-gatsby",
+  "environments": [
+    {
+      "name": "development",
+      "branch": "main",
+      "wp_environment_name": "kongloheaddev",
+      "secrets": [
+        {
+          "key": "WPGRAPHQL_URL",
+          "value": "http://kongloheaddev.wpengine.com/graphql"
+        }
+      ]
+    }
+  ]
+}

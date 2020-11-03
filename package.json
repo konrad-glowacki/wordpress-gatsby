@@ -13,8 +13,9 @@
     "build": "gatsby build",
     "clean-develop": "gatsby clean && gatsby develop",
     "clean-build": "gatsby clean && gatsby build",
-    "start": "npm run develop",
-    "serve": "gatsby serve"
+
+    "wpe-build": "gatsby build",
+    "start": "gatsby serve"
   },
   "dependencies": {
     "@chakra-ui/core": "^0.8.0",
