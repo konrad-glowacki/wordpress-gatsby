@@ -67,3 +67,5 @@ yarn-error.log
 .DS_Store
 
 .wordpress-cache
+
+.vercel
