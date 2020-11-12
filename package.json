@@ -15,7 +15,8 @@
     "clean-build": "gatsby clean && gatsby build",
 
     "wpe-build": "gatsby build",
-    "start": "gatsby serve -p 8080"
+    "start": "gatsby serve -p 8080",
+    "local-build": "npm install && next build"
   },
   "dependencies": {
     "@chakra-ui/core": "^0.8.0",

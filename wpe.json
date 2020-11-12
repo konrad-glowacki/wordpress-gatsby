@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-wordpress",
-  "repo": "konrad-glowacki/wordpress-gatsby",
+  "name": "wpe-gatsby-complex",
+  "repo": "konrad-glowacki/wpe-gatsby-complex",
   "environments": [
     {
       "name": "development",
